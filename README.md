@@ -5,11 +5,6 @@
 
 Basic food ordering app
 
-## TABLE OF CONTENTS
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-
 ## Installation
 1. Download and run in your favorite ide
 
