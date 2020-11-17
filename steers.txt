@@ -1,0 +1,11 @@
+Name:Steers
+Contact:021 531 9233
+Location:Johannesburg
+
+King Steer Burger:69.90
+Beef Burger:37.90
+Ribster Burger:34.90
+McFeast Burger:59.50
+Chips:16.90
+Coke:15.90
+Milkshake:24.90

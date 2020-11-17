@@ -1,0 +1,12 @@
+Name:KFC
+Contact:021 422 3889
+Location:Durban
+
+Colonel Burger:39.90
+Zinger Burger:39.90
+Crunch Burger:24.90
+Boxmaster:49.90
+Chips:9.90
+Pops:38.90
+Soft Drink:15.90
+Liquifruit:10.90
