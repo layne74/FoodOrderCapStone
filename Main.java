@@ -16,8 +16,8 @@ public class Main {
 
 	public static void main(String args[]) throws IOException {
 		try {
-			//Imports and Reads the drivers.txt file
-        	File driversIn = new File("drivers.txt");
+			//Imports and Reads the drivers-info.txt file
+        	File driversIn = new File("drivers-info.txt");
         	Scanner driversInSc = new Scanner(driversIn);
 
         	Customer user = new Customer();
@@ -564,7 +564,7 @@ public class Main {
 	
 	public static void updateDriverList(String driverName) {
 		try {
-			BufferedReader readFile = new BufferedReader(new FileReader("drivers.txt"));
+			BufferedReader readFile = new BufferedReader(new FileReader("drivers-info.txt"));
 			
 			String inputLine;
 			List<String> drivers = new ArrayList<String>();
@@ -584,7 +584,7 @@ public class Main {
 			}
 			readFile.close();
 			
-			FileWriter fileWriter = new FileWriter("drivers.txt");
+			FileWriter fileWriter = new FileWriter("drivers-info.txt");
 			//the contents are then written back to the file
 			for (String outputLine : drivers) {
 				fileWriter.write(outputLine + "\n");
